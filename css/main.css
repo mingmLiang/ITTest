@@ -1,0 +1,242 @@
+/*
+* @Author: mingming
+* @Date:   2017-05-10 16:52:45
+* @Last Modified by:   mingming
+* @Last Modified time: 2017-05-13 20:05:28
+*/
+
+/* 初始化标签元素 */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	color: #555;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td,
+th,
+caption {
+	font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #555;
+}
+
+img {
+	border: none;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+	font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+body {
+	background-color: rgba(11, 161, 167, 0.25)
+}
+
+/* 头部（学校信息展示） */
+header {
+	background-image: url(../img/岭南师范学院东大门.jpg);
+	background-size: cover;
+}
+
+.imgContainer {
+	padding: 10px 0;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+/* 导航条 */
+.navbar {
+	margin-bottom: 0;
+	z-index: 999;
+}
+
+.affix {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* 轮播项 */
+.kcwCarousel .item {
+	height: 427px;
+}
+
+.kcw-left {
+	float: left;
+	width: 50%;
+	height: 427px;
+	background-size: cover;
+}
+
+.kcwCarousel .item img {
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+}
+
+.kcw-right {
+	float: right;
+	width: 50%;
+	height: 427px;
+	background-size: cover;
+}
+
+.cover {
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 2555, 0.6);
+}
+
+/* 主要内容 */
+.kcwItemTitle {
+	text-align: center;
+	border-bottom: #e0e0e0 solid 1px;
+}
+
+.kcwItemTitle h2 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 10px;
+	padding: 6px;
+}
+
+/* 新闻 */
+.kcwItem {
+	margin-top: 10px;
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.newsBox {
+	padding: 10px;
+}
+
+.newsBox .left {
+	float: left;
+	border-right: 1px solid #f0f0f0;
+	margin-right: -1px;
+}
+
+.newsBox .right {
+	float: right;
+}
+
+.newsBox .fa-angle-double-left {
+	color: rgb(5, 154, 160);
+	padding: 0 5px;
+}
+
+.newsBox li {
+	margin: 6px 0;
+}
+
+.newsBox a:hover {
+	font-weight: 600;
+}
+
+.newsBox li:hover .fa-angle-double-left {
+	font-size: 16px;
+}
+
+/* 尾部 */
+footer {
+	padding: 47px 0 36px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer div {
+	margin-top: 10px;
+}

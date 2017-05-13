@@ -1,0 +1,7 @@
+css            个人编写的css文件
+font           使用到的字体文件
+img            使用到的图片文件
+js             个人编写的js脚本
+lib            从第三方下载回来的库（只用不改）
+favicon.ico    站点图标
+index.html     入口文件

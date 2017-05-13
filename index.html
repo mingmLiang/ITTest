@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <!--兼容ie，如7-->
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=7">-->
+  <!--让ie使用最新的渲染引擎-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>课程网-首页</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!-- 头部（学校信息展示） -->
+  <header>
+    <div class="imgContainer">
+      <div class="container"><img src="img/岭南师范学院.png" alt="岭南师范学院"></div>
+    </div>
+  </header>
+  <!-- /头部（学校信息展示） -->
+  
+  <!-- 导航条 -->
+  <nav class="navbar navbar-default" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+    <div class="container-fluid">
+      <!-- 切换显示 -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">小屏幕展开菜单</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">课程网</a>
+      </div>
+      <!--/ 切换显示 -->
+      
+      <!-- 搜索导航链接、表单和其他切换内容-->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">首页 <span class="sr-only">(当前页面)</span></a></li>
+          <li><a href="#">课程概况</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">教学资源 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">作业专区</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">课件专区</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">视频专区</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">源码专区</a></li>
+            </ul>
+          </li>
+          <li><a href="#">教师队伍</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">在线课程 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">刷题助手</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">考试中心</a></li>
+            </ul>
+          </li>
+          <li><a href="#">拓展资源</a></li>
+           
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="请输入搜索内容">
+          </div>
+          <button type="submit" class="btn btn-default">搜索</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">登录</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">明明 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">个人中心</a></li>
+              <li><a href="#">注销</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /搜索导航链接、表单和其他切换内容-->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- /导航条 -->
+  
+  <!-- 轮播图 -->
+  <div class="container  hidden-xs">
+     <div id="carousel-kcw-generic" class="carousel slide" data-ride="carousel">
+  <!-- 点控制器 -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-kcw-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-kcw-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-kcw-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- 大屏幕轮播项 -->
+  <div class="kcwCarousel carousel-inner" role="listbox">
+    <div class="item active clearfix">
+      <div class="kcw-left" style="background-image: url('./img/timg (3).jpg');"><div class="cover"></div></div>
+      <img src="img/timg (1).jpg" alt="...">
+      <div class="kcw-right"style="background-image: url('./img/timg (2).jpg');"><div class="cover"></div></div>
+    </div>
+    <div class="item clearfix">
+      <div class="kcw-left"style="background-image: url('./img/timg (1).jpg');"><div class="cover"></div></div>
+      <img src="img/timg (2).jpg" alt="...">
+      <div class="kcw-right"style="background-image: url('./img/timg (3).jpg');"><div class="cover"></div></div>
+    </div>
+    <div class="item clearfix">
+      <div class="kcw-left"style="background-image: url('./img/timg (2).jpg');"><div class="cover"></div></div>
+      <img src="img/timg (3).jpg" alt="...">
+      <div class="kcw-right"style="background-image: url('./img/timg (1).jpg');"><div class="cover"></div></div>
+    </div>
+  </div>
+  <!-- /大屏幕轮播项 -->
+  
+
+  <!-- 小屏幕轮播项 -->
+ <!-- <div class="carousel-inner visible-xs" role="listbox">
+    <div class="item active clearfix">
+      <img src="img/timg (1).jpg" alt="...">
+    </div>
+    <div class="item clearfix">
+     <img src="img/timg (2).jpg" alt="...">
+    </div>
+    <div class="item clearfix">
+     <img src="img/timg (3).jpg" alt="...">
+    </div>
+  </div> -->
+  <!-- /小屏幕轮播项 -->
+
+
+
+
+
+  <!-- 翻页控制器 -->
+  <a class="left carousel-control" href="#carousel-kcw-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">上一页</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-kcw-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">下一页</span>
+  </a>
+</div>
+  </div>
+  <!-- /轮播图 -->
+  
+  <div class="container">
+  <!-- 新闻 -->
+     <div class="kcwItem">
+        <div class="kcwItemTitle">
+          <h2>相关新闻</h2>
+        </div>
+        <div class="newsBox clearfix">
+           <ul class="left col-md-6 col-xs-12">
+              <li><i class="fa fa-angle-double-left"></i><a href="#">石家庄首批取消运输资质渣土车名单公布</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">贵州成立8个省级脱贫攻坚督导组</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">中外200余家酒企江西觅商机 冀扩大内地市场</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">石家庄首批取消运输资质渣土车名单公布</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">贵州成立8个省级脱贫攻坚督导组</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">中外200余家酒企江西觅商机 冀扩大内地市场</a></li>
+           </ul>
+           <ul class="right col-md-6 col-xs-12">
+              <li><i class="fa fa-angle-double-left"></i><a href="#">金山区破解“撤建制不撤服务”难题，农村服务半径从5公里缩短到500米</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">浮萍疯长，济南全福河变“草原”，响应河长制全面治理</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">西安一村镇将熟小麦大面积“生锈”村民担心绝收</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">石家庄首批取消运输资质渣土车名单公布</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">贵州成立8个省级脱贫攻坚督导组</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">中外200余家酒企江西觅商机 冀扩大内地市场</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">石家庄首批取消运输资质渣土车名单公布</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">贵州成立8个省级脱贫攻坚督导组</a></li>
+              <li><i class="fa fa-angle-double-left"></i><a href="#">中外200余家酒企江西觅商机 冀扩大内地市场</a></li>
+           </ul>
+        </div>
+    </div>
+  <!-- /新闻 -->
+  </div>
+
+
+  <!-- 尾部 -->
+  <footer>
+    <div><a href="#">岭南师范学院</a> <a href="#">Lingnan Normal University</a>  版权所有:1996-- 岭南师范学院  粤ICP备15053357号 </div>
+    <div>校址：中国 广东 湛江赤坎区寸金路29号   邮编：524048   电话：86-759-3183226   传真：86-759-3341440</div>
+  </footer>
+  <!-- /尾部 -->
+
+ 
+
+  
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

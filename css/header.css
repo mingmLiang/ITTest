@@ -1,0 +1,39 @@
+/*
+* @Author: mingming
+* @Date:   2017-05-14 00:11:49
+* @Last Modified by:   mingming
+* @Last Modified time: 2017-05-14 12:55:37
+*/
+/* 头部（学校信息展示） */
+header {
+	background-image: url(../img/岭南师范学院东大门.jpg);
+	background-size: cover;
+}
+
+.imgContainer {
+	padding: 10px 0;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+/* 导航条 */
+.navbar {
+	margin-bottom: 0;
+	z-index: 999;
+}
+
+.affix {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+/* 尾部 */
+footer {
+	background-color:rgb(193, 231, 232);
+	padding: 47px 0 36px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer div {
+	margin-top: 10px;
+}

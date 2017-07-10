@@ -1,0 +1,21 @@
+/*
+* @Author: mingming
+* @Date:   2017-05-14 11:28:12
+* @Last Modified by:   mingming
+* @Last Modified time: 2017-05-18 19:17:29
+*/
+
+h2 {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 31px;
+	color: rgba(45, 153, 156, 0.85);
+}
+.kcwContainer {
+	padding: 18px;
+}
+.couSitContent p {
+	text-indent: 2em;
+	line-height: 26px;
+	font-size: 15px;
+}

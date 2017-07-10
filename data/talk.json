@@ -1,0 +1,145 @@
+[{
+	"id": 22,
+	"user": {
+		"userName": "root",
+		"userid": 2,
+		"userPwd": "root",
+		"userEmail": "rootroot4@qq.com",
+		"userPhone": "13437872487",
+		"userType": "student",
+		"trueName": "小明",
+		"authority": 0
+	},
+	"speak": "[em_4][em_1]",
+	"date": "2017-05-16 11:17:02",
+	"isShow": 0,
+	"rid": null
+}, {
+	"id": 21,
+	"user": {
+		"userName": "admin",
+		"userid": 1,
+		"userPwd": "admin",
+		"userEmail": "438157704@qq.com",
+		"userPhone": "13437872497",
+		"userType": "super",
+		"trueName": "黄卉",
+		"authority": 1
+	},
+	"speak": "aaaa[em_40]",
+	"date": "2017-05-10 19:12:31",
+	"isShow": 0,
+	"rid": null
+}, {
+	"id": 20,
+	"user": {
+		"userName": "admin",
+		"userid": 1,
+		"userPwd": "admin",
+		"userEmail": "438157704@qq.com",
+		"userPhone": "13437872497",
+		"userType": "super",
+		"trueName": "黄卉",
+		"authority": 1
+	},
+	"speak": "<a href=\"#\">我不是admin，我是秋比特。</a>",
+	"date": "2017-05-09 17:51:26",
+	"isShow": 0,
+	"rid": null
+}, {
+	"id": 18,
+	"user": {
+		"userName": "root",
+		"userid": 2,
+		"userPwd": "root",
+		"userEmail": "rootroot4@qq.com",
+		"userPhone": "13437872487",
+		"userType": "student",
+		"trueName": "小明",
+		"authority": 0
+	},
+	"speak": "这是刘安",
+	"date": "2017-04-24 13:22:50",
+	"isShow": 0,
+	"rid": null
+}, {
+	"id": 19,
+	"user": {
+		"userName": "root",
+		"userid": 2,
+		"userPwd": "root",
+		"userEmail": "rootroot4@qq.com",
+		"userPhone": "13437872487",
+		"userType": "student",
+		"trueName": "小明",
+		"authority": 0
+	},
+	"speak": "发动过费归档",
+	"date": "2017-04-24 13:22:50",
+	"isShow": 0,
+	"rid": null
+}, {
+	"id": 17,
+	"user": {
+		"userName": "root",
+		"userid": 2,
+		"userPwd": "root",
+		"userEmail": "rootroot4@qq.com",
+		"userPhone": "13437872487",
+		"userType": "student",
+		"trueName": "小明",
+		"authority": 0
+	},
+	"speak": "留言区，我爱**。[em_13]",
+	"date": "2017-04-24 13:21:59",
+	"isShow": 0,
+	"rid": null
+}, {
+	"id": 1,
+	"user": {
+		"userName": "qq",
+		"userid": 4,
+		"userPwd": "123456",
+		"userEmail": "12345644@qq.com",
+		"userPhone": "13437872467",
+		"userType": "student",
+		"trueName": "陈秋宇",
+		"authority": 1
+	},
+	"speak": "下喔江安fd县喔加",
+	"date": "2017-03-25",
+	"isShow": 0,
+	"rid": "000"
+}, {
+	"id": 2,
+	"user": {
+		"userName": "qq",
+		"userid": 4,
+		"userPwd": "123456",
+		"userEmail": "12345644@qq.com",
+		"userPhone": "13437872467",
+		"userType": "student",
+		"trueName": "陈秋宇",
+		"authority": 1
+	},
+	"speak": "哈fds哈哈",
+	"date": "2017-03-25",
+	"isShow": 0,
+	"rid": "000"
+}, {
+	"id": 3,
+	"user": {
+		"userName": "admin",
+		"userid": 1,
+		"userPwd": "admin",
+		"userEmail": "438157704@qq.com",
+		"userPhone": "13437872497",
+		"userType": "super",
+		"trueName": "黄卉",
+		"authority": 1
+	},
+	"speak": "大头真让人头大",
+	"date": "2017-03-25",
+	"isShow": 0,
+	"rid": "R01"
+}]

@@ -1,0 +1,25 @@
+/*
+* @Author: mingming
+* @Date:   2017-05-18 18:33:34
+* @Last Modified by:   mingming
+* @Last Modified time: 2017-05-18 18:59:19
+*/
+body {
+	background: url(../img/bg.jpg) center 20% no-repeat;
+}
+.newsContainer {
+	min-height: 445px;
+}
+.newsContainer h2 {
+	font-size: 28px;
+	padding-top: 41px;
+	text-align: center;
+}
+.newsContainer .newsItem {
+	font-size: 18px;
+}
+.newsContainer .newsItem p {
+	text-indent: 2em;
+	line-height: 26px;
+
+}

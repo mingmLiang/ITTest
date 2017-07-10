@@ -1,0 +1,46 @@
+/*
+* @Author: mingming
+* @Date:   2017-05-15 23:00:47
+* @Last Modified by:   mingming
+* @Last Modified time: 2017-05-18 19:16:15
+*/
+.teacherContainer {
+    padding: 45px 0;
+}
+.teacherContainer h2 {
+    font-size: 31px;
+    color: rgba(45, 153, 156, 0.85);
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 5px 0 40px 0;
+    margin-bottom: 19px;
+}
+.teacherContainer .teaItem {
+    padding: 29px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.teacherContainer .teaItem:last-child {
+    border-bottom: none;
+}
+.teacherContainer .teaItem img {
+    width: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #c1e7e8;
+    float: left;
+}
+.teacherContainer .teaItem .information {
+    float: left;
+    padding: 0 20px;
+    font-size: 17px;
+    line-height: 36px;
+}
+.teacherContainer .teaItem .information p {
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 35px;
+}
+.teacherContainer .teaItem .information p span {
+    font-weight: 600;
+    color: #25878a;
+    padding: 0 16px;
+}

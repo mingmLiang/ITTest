@@ -1,0 +1,88 @@
+/*
+* @Author: mingming
+* @Date:   2017-05-14 00:10:52
+* @Last Modified by:   mingming
+* @Last Modified time: 2017-05-14 12:54:18
+*/
+.learnContent {
+	background: #fff;
+	height: 600px;
+}
+.learnContent .nav-tabs {
+	float: left;
+}
+.learnContent .tab-content {
+	float: left;
+	padding: 19px 0;
+}
+.learnContent .tab-content table th, .learnContent .tab-content table td {
+	text-align: center;
+}
+.learnContent .tab-content table th {
+	font-size: 15px;
+	padding: 9px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+.learnContent .tab-content table td {
+	font-size: 14px;
+	padding: 9px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+.learnContent .tab-content table td a {
+	color: #3fa1ad;
+}
+.page {
+	text-align: center;
+}
+.learnContent  .nav-tabs > li {
+	float: none;
+	text-align: center;
+}
+.learnContent .nav-tabs > li > a {
+	font-size: 17px;
+	padding: 26px 0;
+	font-weight: 600;
+}
+.learnContent .nav-tabs > li.active > a, .learnContent .nav-tabs > li.active > a:focus, .learnContent .nav > li > a:focus {
+	background: rgba(11, 161, 167, 0.25);
+}
+.learnContent .nav > li > a:hover, .learnContent .nav-tabs > li.active > a:hover {
+	background: rgba(11, 161, 167, 0.1);
+}
+.kcwName {
+	color: #3fa1ad;
+	font-weight: 600;
+	font-size: 15px;
+}
+.upLoadTea {
+	font-size: 13px;
+	color: #555;
+}
+.time {
+	font-size: 12px;
+}
+.downLoadBt {
+	cursor: pointer;
+	color: rgba(29, 136, 142, 1);
+	font-size: 19px;
+	padding: 7px;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+}
+.downLoadBt:hover{
+	border: 1px solid rgba(29, 136, 142, 1);
+	
+}
+.tab-pane li {
+	border-bottom: 1px solid #e0e0e0;
+	line-height: 53px;
+}
+.pagination > li > a, .pagination > li > span {
+	color: #288c98;
+}
+.pagination > li > a:hover, .pagination > li > span:hover {
+	background: rgba(11, 161, 167, 0.1);
+}
+.pagination > li > a:focus, .pagination > li > span:focus {
+	background: rgba(11, 161, 167, 0.25);
+}
